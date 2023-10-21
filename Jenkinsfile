@@ -13,7 +13,7 @@ pipeline {
                     def remoteDir = "/var/www/html/jdworld/"
                     //def remoteDir = "/var/www/html/"
                     
-                          create directory
+                         // create directory
                         sh "sudo mkdir -p ${remoteDir}"
                     
                     

@@ -1,0 +1,96 @@
+body{
+	background-image: url(../images/bg-desktop.png) !important;
+   background-position: center 23%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.user-image-section {
+    background: /*#1c242c*/ #28323c;
+    border-radius: 50%;
+    height: 67px;
+    width: 67px;
+}
+.login-image-main{
+	border: 0px solid #D71D60 !important;
+    background: #1c242c;
+}
+.frm_lbl {
+    font-size: 10px !important;
+    border-color: #455664 !important;
+}
+label {
+    background-color: #20252d !important;
+    text-align: left !important;
+    display: block;
+    margin-bottom: 0rem !important;
+    line-height: 150%;
+    font-size: .85em;
+}
+.fa-check-circle {
+    content: "\f05d";
+    color: lightgreen;
+    float: right;
+    font-size: 14px !important;
+}
+.frm_lbl:not(:first-child) {
+    font-size: 10px !important;
+    color: #455664 !important;
+}
+.user-login-box a, .user-login-box a:hover {
+    background-color: #D71D60;
+    border: 1px solid #D71D60;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 3px;
+    border: solid 1px transparent;
+}
+.user-login-box, .last-part {
+    padding: 20px;
+}
+.first_lbl::before
+{
+	
+	float: left;
+}
+@media (max-width:768px) {
+	body{
+		background-image: none !important;
+		background-color: #1c242c;
+	}
+	section{
+		background-color: #1c242c !important;
+		margin-top: 50px;
+	}
+	.fsection .container {
+		display: none;
+	}
+	.fsection{
+		display: none;
+	}
+
+}
+.last-part a {
+    text-decoration: none;
+    color: white;
+}
+@media (max-width:320px) {
+	body{
+		background-image: none !important;
+		background-color: #1c242c;
+	}
+	section{
+		background-color: #1c242c !important;
+		margin-top: 50px;
+	}
+	.fsection .container {
+		display: none;
+	}
+	.fsection{
+		display: none;
+	}
+
+}
+

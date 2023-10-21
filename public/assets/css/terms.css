@@ -1,0 +1,66 @@
+body{
+	background-image: url(../images/bg-desktop.png);
+    background-size: 100% 100%;
+    background-color: transparent;
+    background-position: initial;
+    
+}
+.login_div{
+	display: none;
+}
+.fa-circle:before {
+    color: #fff200;
+    font-size: 13px;
+}
+.div_main
+{
+	margin-top:20%;
+}
+.mt
+{
+	margin-top:100px;
+}
+@media (max-width:768px) {
+	 body{
+		
+	    background-image: url(../images/bg-mobile.png);
+	    background-size: 100% 100%;
+	    background-color: transparent;
+	    background-position: initial;
+	}	
+	footer{
+		display: none;
+	}
+	.logo{
+
+	}
+	.sec0{
+		margin-top: 8rem !important;
+	}
+	.mt
+	{
+		margin-top:100px;
+	}
+}
+@media (max-width:320px) {
+	 body{
+		background-image: url(../images/bg-mobile.png);
+	    background-size: 100% 100%;
+	    background-color: transparent;
+	    background-position: initial;
+	}	
+	footer{
+		display: none;
+	}
+	.logo{
+
+	}
+	.sec0{
+		margin-top: 8rem !important;
+	}
+	.mt
+	{
+		margin-top:100px;
+	}
+}
+

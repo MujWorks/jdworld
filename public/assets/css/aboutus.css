@@ -1,0 +1,30 @@
+.section2{
+	background-image: url(../images/ab_bg_desk.png);
+    height:100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 52%;
+    background-position: bottom;
+}
+
+@media (max-width:768px) {
+	 .section2{
+		background-image: url(../images/ab_bg.png);
+	    background-position: bottom;
+    	height: 90vh;
+    	width: 100%;
+    	background-repeat: no-repeat;
+    	background-size: 100% 52%;
+	}	
+}
+@media (max-width:320px) {
+	 .section2{
+		background-image: url(../images/ab_bg.png);
+	    background-position: bottom;
+    	height: 90vh;
+    	width: 100%;
+    	background-repeat: no-repeat;
+    	background-size: 100% 44%;
+	}	
+}
+

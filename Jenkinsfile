@@ -10,11 +10,11 @@ pipeline {
                 //sh 'scp -r ${WORKSPACE}/* root@${staging_server}:/var/www/html/simplecrud/'
 
                 script {
-                    //def remoteDir = "/var/www/html/simplecrud/"
-                    def remoteDir = "/var/www/html/"
+                    def remoteDir = "/var/www/html/jdworld/"
+                    //def remoteDir = "/var/www/html/"
                     
-                        //  create directory
-                        //sh "sudo mkdir -p ${remoteDir}"
+                          create directory
+                        sh "sudo mkdir -p ${remoteDir}"
                     
                     
                     // Now, copy the files
